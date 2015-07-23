@@ -500,9 +500,6 @@ if __name__ == "__main__":
 	print("0000 |   0 |   0 |        INIT |     |  > |  < | []")
 	
 	# like this?
-	
-	print(im.getpixel((0, 0)))
-	
 	previousColor = (pc.findColor(im.getpixel((0, 0))))[1]
 	currentColor  = (0, 0)
 	

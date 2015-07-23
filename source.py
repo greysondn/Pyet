@@ -510,7 +510,7 @@ if __name__ == "__main__":
 		
 		command = (pc.findOp(previousColor, currentColor))
 		
-		# pi.evaluate(command)
+		pi.evaluate(command)
 		
 		previousColor = currentColor
 		
